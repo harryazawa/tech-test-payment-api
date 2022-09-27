@@ -1,9 +1,16 @@
-namespace DefaultNamespace;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-public class Seller
+namespace tech_test_payment_api.Entities
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string CPF { get; set; }
-    public string PhoneNumber { get; set; }
+
+    public class Seller
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string CPF { get; set; }
+        public string PhoneNumber { get; set; }
+    }
 }
